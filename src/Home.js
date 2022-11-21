@@ -55,7 +55,7 @@ const Vision =({something})=> {return(<div className="Mission Vision" >
     
       <img src={VisionPic}  alt='mission' style={{width:'calc(8em + 25vw)',
         padding:'10px', paddingBottom:'40px'}}/>
-    <AnimationOnScroll animateIn="animate__fadeInRight" style={{border:'0px'}}>
+    
 
       <div className='statementElem statementElemTwo' style={{display:'flex',flexDirection:'column',alignItems:'center', justifyContent:'center',
       padding:'10px'}}>
@@ -66,7 +66,7 @@ const Vision =({something})=> {return(<div className="Mission Vision" >
         <h3 style={{textAlign:'center'}}>Pepole are able to dream</h3>
         <h3 style={{textAlign:'center'}}>..and also stay MOTIVATED</h3>
       </div>
-    </AnimationOnScroll>
+    
     
 
   </div>
