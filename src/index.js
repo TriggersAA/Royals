@@ -4,26 +4,27 @@ import './index.css';
 import Home from './Home';
 import ContactUs from './ContactUs'
 import reportWebVitals from './reportWebVitals';
-import {createBrowserRouter, RouterProvider } from 'react-router-dom';
+import {HashRouter ,Routes, Route } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const router = createBrowserRouter([{path: "/", element : <Home />},
-  {path:"/ContactUs" ,element :<ContactUs />}
-])
+// const router = createBrowserRouter([{path: "/", element : <Home />},
+//   {path:"/ContactUs" ,element :<ContactUs />}
+// ])
 root.render(
   <React.StrictMode>
 
-    {/*<BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route />
+        <Route path="/" element = {<Home />}/>
+
         <Route path="/ContactUs" element = {<ContactUs />}/>
         
       </Routes>
-</BrowserRouter> */}
+  </HashRouter>
 
-  <RouterProvider router={router}/>
+{/* <RouterProvider router={router}/> */}
     
   </React.StrictMode>
 );
