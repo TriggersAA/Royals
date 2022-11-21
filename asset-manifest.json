@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Royals/static/css/main.f7b193f6.css",
-    "main.js": "/Royals/static/js/main.4f38bf57.js",
+    "main.js": "/Royals/static/js/main.8aa4bc40.js",
     "static/js/512.cb8baebf.chunk.js": "/Royals/static/js/512.cb8baebf.chunk.js",
     "static/media/RoyalIntro.jpg": "/Royals/static/media/RoyalIntro.d518c286e2f99d6b649b.jpg",
     "static/media/MissionPic.jpg": "/Royals/static/media/MissionPic.0061db414a35f81af5cc.jpg",
@@ -14,11 +14,11 @@
     "static/media/RLogo.jpg": "/Royals/static/media/RLogo.74ea9a2892713e80d573.jpg",
     "index.html": "/Royals/index.html",
     "main.f7b193f6.css.map": "/Royals/static/css/main.f7b193f6.css.map",
-    "main.4f38bf57.js.map": "/Royals/static/js/main.4f38bf57.js.map",
+    "main.8aa4bc40.js.map": "/Royals/static/js/main.8aa4bc40.js.map",
     "512.cb8baebf.chunk.js.map": "/Royals/static/js/512.cb8baebf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7b193f6.css",
-    "static/js/main.4f38bf57.js"
+    "static/js/main.8aa4bc40.js"
   ]
 }
