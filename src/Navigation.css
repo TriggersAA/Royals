@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100&family=Great+Vibes&family=IBM+Plex+Mono:ital,wght@0,300;1,300&family=Moon+Dance&family=Nunito+Sans&display=swap');
+
+
+#royalid img {
+  width: 30px;
+  height: 2rem;
+  border-radius: 10px;
+}
+.Navul{
+  width: 100%;
+  box-shadow: 0px 5px 5px 0px rgb(169, 158, 89);
+}
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 3fr 1fr 1fr 2fr 1fr;
+  }
+
+  
+  li {
+    float: left;
+    
+  }
+  
+  #royalid{
+    display: flex;
+    
+    justify-items: center;
+    align-items: center;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: calc(0.9em + 0.9vw);
+    
+  }
+  li a {
+    display: block;
+    color: rgb(246, 240, 240);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+
+
+@media only screen and (max-width :450px){
+ ul{ 
+   font-size: 7px;
+   grid-template-columns: 120px 30px 15px 40px 15px;
+ }
+ li a{
+   padding: 3px;
+ }
+ #royalid{
+  font-size: calc(1.2em + 1.1vw);
+
+ }
+}

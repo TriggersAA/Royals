@@ -1,0 +1,91 @@
+.contact{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(248, 248, 227);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5em;
+}
+
+.form{
+    margin-top: 5em;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid goldenrod;
+}
+
+form h1{
+    margin: 0;
+    padding: 10px;
+    font-size: calc(2em + 1vw);
+    color: rgb(78, 60, 16);
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+
+}
+.innerdiv{
+    
+    width: calc(10em + 17vw);
+    margin-bottom: 2em;
+}
+.others{
+    width: 100%;
+    background-color: rgb(91, 70, 15);
+
+}
+.smallothers{
+    width:  calc(9em + 11vw);
+   
+    
+    height: 10em;
+    padding-top: 1em;
+    padding-left: 0.6em;
+    color: white;
+}
+
+form h3{
+    color: rgb(78, 60, 16);
+    font-family: 'Old Standard TT', serif;
+
+}
+.smallothers h3{
+    color: white;
+}
+form h4{
+    margin-left: 10px;
+}
+input[type = 'text'],input[type = 'email']{
+    border: 0;
+    background-color: rgb(248, 248, 227);
+    border-bottom: 2px solid goldenrod;
+    width: calc(7em + 17vw);
+}
+input:focus{
+    outline: none;
+}
+input[type = 'submit']{
+    margin: 40px;
+    color: white;
+    font-size: large;
+    width: calc(5em + 2vw);
+    border: 1px solid goldenrod;
+    background-color: rgb(91, 70, 15);
+    border-radius: 10px;
+}
+textarea{
+    border:2px solid goldenrod;
+    width: calc(7em + 17vw);
+    resize: none;
+
+}
+textarea:focus{
+    outline:none;
+}
+@media only screen and (max-width :450px){
+    .form{ 
+      width: 80%;
+    }
+
+}
