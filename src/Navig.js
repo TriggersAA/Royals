@@ -8,11 +8,11 @@ const Navig = ()=>{
     <div className="Navbar">
     <ul className="Navul">
       <li id="royalid">Royal Concepts <img src={RLogo} alt="logo"/></li>
-      <li ><Link className="act" to='/Royals'>Home</Link>
+      <li ><Link className="act" to='/'>Home</Link>
       
       </li>
       <li></li>
-      <li id="useless" className="act"><Link to='Royals//ContactUs'>Contact Us</Link></li>
+      <li id="useless" className="act"><Link to='/ContactUs'>Contact Us</Link></li>
       <li></li>
     </ul>
   </div> )
