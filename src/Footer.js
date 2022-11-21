@@ -16,7 +16,7 @@ const Footer =()=>{ return(<div>
     <div className="author">
     </div>
 </footer>
-<h6 style={{width:'100%', textAlign:'center', paddingBottom:'0px'}}>All rights reserved.  Designed by Trigger_sAA</h6>
+<h6 style={{width:'100%', textAlign:'center', paddingBottom:'0px', marginBottom:'0px'}}>All rights reserved.  Designed by Trigger_sAA</h6>
 </div>
 )};
 
