@@ -76,7 +76,7 @@ input[type = 'submit']{
 }
 textarea{
     border:2px solid goldenrod;
-    width: calc(7em + 17vw);
+    width: calc(8em + 20vw);
     resize: none;
 
 }

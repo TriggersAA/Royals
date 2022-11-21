@@ -81,6 +81,10 @@ font-family: 'Old Standard TT', serif;
   border-right: 2px solid gold;
   height: calc(17em + 12vh);
 }
+.ajforw{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
 .Mission div{
   border-bottom: 2px solid gold;
   border-left: 2px solid gold;
@@ -88,7 +92,7 @@ font-family: 'Old Standard TT', serif;
 
 .Vision{
   padding-top: 40px;
-  flex-direction: row-reverse;
+
 }
 .Vision div{
   border-width: 0;

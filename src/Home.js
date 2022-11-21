@@ -40,9 +40,9 @@ const Statement =({something,statement,Pic})=> {return(<div className="Mission" 
       </div>
     </AnimationOnScroll>
   
-  <AnimationOnScroll animateIn="animate__fadeInRight" style={{border:"0px"}}>
+ 
     <img src={Pic}  alt='mission' style={{width:'calc(6em + 25vw)', padding:'10px'}}/>
-  </AnimationOnScroll>
+
   </div>
   
 </div>)}
@@ -51,22 +51,24 @@ const Statement =({something,statement,Pic})=> {return(<div className="Mission" 
 const Vision =({something})=> {return(<div className="Mission Vision" >
   <hr/>
   <h1 style={{width:"100%", textAlign:'center'}}>Our Vision</h1>
-  <div className='justforwrap' style={{border:"0px"}}>
-    <AnimationOnScroll animateIn="animate__fadeInLeft">
+  <div className='justforwrap ajforw' style={{border:"0px"}}>
+    
+      <img src={VisionPic}  alt='mission' style={{width:'calc(8em + 25vw)',
+        padding:'10px', paddingBottom:'40px'}}/>
+    <AnimationOnScroll animateIn="animate__fadeInRight" style={{border:'0px'}}>
+
       <div className='statementElem statementElemTwo' style={{display:'flex',flexDirection:'column',alignItems:'center', justifyContent:'center',
       padding:'10px'}}>
       
-      <h2 style={{width:'10em', height:'fitContent',textAlign:'center'}}>
-        {something}
-      </h2>
-      <h3 style={{textAlign:'center'}}>Pepole are able to dream</h3>
-      <h3 style={{textAlign:'center'}}>..and also stay MOTIVATED</h3>
-    </div>
+        <h2 style={{width:'10em', height:'fitContent',textAlign:'center'}}>
+          {something}
+        </h2>
+        <h3 style={{textAlign:'center'}}>Pepole are able to dream</h3>
+        <h3 style={{textAlign:'center'}}>..and also stay MOTIVATED</h3>
+      </div>
     </AnimationOnScroll>
-    <AnimationOnScroll animateIn="animate__fadeInRight">
-      <img src={VisionPic}  alt='mission' style={{width:'calc(8em + 25vw)',
-        padding:'10px', paddingBottom:'40px'}}/>
-    </AnimationOnScroll>
+    
+
   </div>
   
    
