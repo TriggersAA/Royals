@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Royals/static/css/main.ba3f6d7a.css",
-    "main.js": "/Royals/static/js/main.6b992cc2.js",
+    "main.css": "/Royals/static/css/main.25bf9271.css",
+    "main.js": "/Royals/static/js/main.6c93ba4e.js",
     "static/js/512.cb8baebf.chunk.js": "/Royals/static/js/512.cb8baebf.chunk.js",
     "static/media/RoyalIntro.jpg": "/Royals/static/media/RoyalIntro.d518c286e2f99d6b649b.jpg",
     "static/media/MissionPic.jpg": "/Royals/static/media/MissionPic.0061db414a35f81af5cc.jpg",
@@ -13,12 +13,12 @@
     "static/media/RJobOffer.jpg": "/Royals/static/media/RJobOffer.66cb430b771845d10382.jpg",
     "static/media/RLogo.jpg": "/Royals/static/media/RLogo.74ea9a2892713e80d573.jpg",
     "index.html": "/Royals/index.html",
-    "main.ba3f6d7a.css.map": "/Royals/static/css/main.ba3f6d7a.css.map",
-    "main.6b992cc2.js.map": "/Royals/static/js/main.6b992cc2.js.map",
+    "main.25bf9271.css.map": "/Royals/static/css/main.25bf9271.css.map",
+    "main.6c93ba4e.js.map": "/Royals/static/js/main.6c93ba4e.js.map",
     "512.cb8baebf.chunk.js.map": "/Royals/static/js/512.cb8baebf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba3f6d7a.css",
-    "static/js/main.6b992cc2.js"
+    "static/css/main.25bf9271.css",
+    "static/js/main.6c93ba4e.js"
   ]
 }
