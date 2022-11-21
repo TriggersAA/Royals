@@ -51,7 +51,7 @@ ul {
 @media only screen and (max-width :450px){
  ul{ 
    font-size: 7px;
-   grid-template-columns: 120px 30px 15px 40px 15px;
+   grid-template-columns: 120px 30px 15px 70px 15px;
  }
  li a{
    padding: 3px;
