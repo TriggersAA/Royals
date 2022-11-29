@@ -12,7 +12,7 @@ const Navig = ()=>{
       
       </li>
       <li></li>
-      <li id="useless" className="act"><Link to='/ContactUs'>Contact Us</Link></li>
+      <li id="useless" className="act"><Link to='/ContactUs'>ContactUs</Link></li>
       <li></li>
     </ul>
   </div> )

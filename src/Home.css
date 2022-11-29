@@ -75,11 +75,15 @@ font-size: xx-large;
 font-family: 'Old Standard TT', serif;
 
 }
+.Mission img{
+  width: calc(12em + 21vw);
+
+}
 .justforwrap img{
 
   border-top: 2px solid gold;
   border-right: 2px solid gold;
-  height: calc(17em + 12vh);
+  height: calc(25em + 10vh);
 }
 .ajforw{
   display: flex;
@@ -123,6 +127,14 @@ hr{
   justify-content: center;
   padding-bottom: 20px;
 }
+.divisions img{
+  height:30em ;
+  width: 35em;
+}
+.statementElem{
+  width: 20em;
+  height: calc(25em + 10vh);
+}
 .whatweoffer{
   background-color: rgb(248, 248, 227);
   text-align: center;
@@ -139,36 +151,34 @@ hr{
 .divisions h3{
   color: rgb(148, 129, 19);
 }
-.divisions img{
-  margin-left: 5px;
-  width: 40%;
-  height: calc(9em + 25vh);
-}
-@media only screen and (max-width :450px){
+
+
+@media only screen and (max-width :600px){
   .divisions img{
     margin-left: 5px;
     width: 70%;
     height: calc(9em + 15vh);
   }
+  .statementElem{
+    height: calc(9em + 15vh);
+    width: calc(12em + 21vw);
+  }
   .Mission img{
-    height: calc(9em + 4vh);
+    height: calc(13em + 15vh);
 
   }
 }
 .offerTextWrapper{
-  width: 27rem;
+  width: 35rem;
   
 }
-.statementElem{
-  width: 20em;
-  height: 20em;
-}
+
 .offerText{
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 70px 60px 0 100px;
+  margin: 95px 60px 0 100px;
   border-right: 2px solid goldenrod;
   padding-right: 50px;
 }
@@ -204,10 +214,6 @@ hr{
     font-size: larger;
   }
 
-  .statementElem{
-    width: 12em;
-    height: 11em;
-  }
   .statementElemTwo{
     height: 16em;
     

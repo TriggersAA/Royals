@@ -4,12 +4,13 @@ import RLogo from './Pictures/RLogo.jpg'
 
 const Footer =()=>{ return(<div>
     <footer className="foot">
-    <div>
+    <div className="rlogo">
+    <img src={RLogo} alt="logo"/>
         <h2>Royal Concepts</h2>
-        <img src={RLogo} alt="logo"/>
+        
     </div>
-    <div>
-        <h3>Contacts</h3>
+    <div className="fcontact">
+        <h3 style={{borderBottom:'2px solid gold', marginTop:"0px"}}>Contacts</h3>
         <h4>09066944736</h4>
         <h4>08140893088</h4>
     </div>

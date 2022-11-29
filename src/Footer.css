@@ -2,16 +2,11 @@
   
   .foot{
     display: flex;
-    justify-content: space-around;
-    color:white;
-   
-  }
-  .foot div{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    color:white;
+   margin-top: 3em;
   }
+ 
   .foot h2,h3,h6{
     color: gold;
     font-family: 'Old Standard TT', serif;
@@ -21,3 +16,33 @@
     height: 5em;
     border-radius: 3px;
   }
+.rlogo{
+  display: flex;
+  justify-content: center;
+  margin-right:5vw ;
+}
+.rlogo h2{
+  padding-left: 10px;
+  width: 5em;
+  
+}
+@media only screen and (max-width :450px){
+  .rlogo h2{
+    margin-top: 5px;
+    font-size: large;
+  }
+  .rlogo img{
+    width: 3em;
+    height: 3em;
+  }
+  .fcontact h3{
+    font-size: small;
+  }
+  .fcontact h4{
+    margin:2px;
+    font-size: small;
+  }
+
+
+}
+ 

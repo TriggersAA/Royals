@@ -10,8 +10,8 @@ import RJobOffer from './Pictures/RJobOffer.jpg'
 import RShopRoyal from './Pictures/RShopRoyal.jpg'
 import './Home.css';
 import { TypeAnimation } from 'react-type-animation';
-import { Link } from "react-router-dom";
-import Navig from './Navig';
+
+
 import Footer from './Footer'
 
 const inRoyalName = <TypeAnimation
@@ -41,7 +41,7 @@ const Statement =({something,statement,Pic})=> {return(<div className="Mission" 
     </AnimationOnScroll>
   
  
-    <img src={Pic}  alt='mission' style={{width:'calc(6em + 25vw)', padding:'10px'}}/>
+    <img src={Pic}  alt='mission' style={{ padding:'10px'}}/>
 
   </div>
   
@@ -53,9 +53,9 @@ const Vision =({something})=> {return(<div className="Mission Vision" >
   <h1 style={{width:"100%", textAlign:'center'}}>Our Vision</h1>
   <div className='justforwrap ajforw' style={{border:"0px"}}>
     
-      <img src={VisionPic}  alt='mission' style={{width:'calc(8em + 25vw)',
+      <img src={VisionPic}  alt='mission' style={{
         padding:'10px', paddingBottom:'40px'}}/>
-    
+
 
       <div className='statementElem statementElemTwo' style={{display:'flex',flexDirection:'column',alignItems:'center', justifyContent:'center',
       padding:'10px'}}>
@@ -66,7 +66,7 @@ const Vision =({something})=> {return(<div className="Mission Vision" >
         <h3 style={{textAlign:'center'}}>Pepole are able to dream</h3>
         <h3 style={{textAlign:'center'}}>..and also stay MOTIVATED</h3>
       </div>
-    
+
     
 
   </div>
@@ -133,29 +133,29 @@ function Home() {
   return (
     
     <div className="Home">
-    <Navig/>
-    <div className="RoyalConceptIntro">
-      <img id="RoyalIntroPic" src={RoyalIntro} alt="Royals"/>
-      <div className="PicOverlay">
-        <h1 id="royalName">Royal Concepts</h1>
-        <div className="inRoyalName">
-          {inRoyalName}
+      
+      <div className="RoyalConceptIntro">
+        <img id="RoyalIntroPic" src={RoyalIntro} alt="Royals"/>
+        <div className="PicOverlay">
+          <h1 id="royalName">Royal Concepts</h1>
+          <div className="inRoyalName">
+            {inRoyalName}
+          </div>
         </div>
+      
       </div>
-     
-    </div>
-    
-     <Statement something={'To bring about more futuristic-oriented generations'} statement={'Mission'} Pic={MissionPic}/>
-     <Vision something={'Our Vision entalis creating a World where....'}/>
-     <h3 style={{textAlign:'center', color:'white'}}>We aslo aim to keep people connected to God through what we do</h3>
-     <hr />
-     <Statement something={'To SEED Sowers, future-Investors and to stand out !'} statement={'Purpose'}  Pic={PurposePic}/>
-     <div className="emptydiv"></div>
-     <h1 className="whatweoffer">What We Offer</h1>
-     {RoyalOffers.map((elem,i)=> { return(<WhatWeoffer offer={elem} offerText = {offerTexts[i]} offerPic={RoyalPics[i]} extraclass={extras[i]} key={i}/>)})}
-     {FinalThought}
-     <hr/>
-    <Footer/>
+      
+      <Statement something={'To bring about more futuristic-oriented generations'} statement={'Mission'} Pic={MissionPic}/>
+      <Vision something={'Our Vision entalis creating a World where....'}/>
+      <h3 style={{textAlign:'center', color:'white'}}>We aslo aim to keep people connected to God through what we do</h3>
+      <hr />
+      <Statement something={'To SEED Sowers, future-Investors and to stand out !'} statement={'Purpose'}  Pic={PurposePic}/>
+      <div className="emptydiv"></div>
+      <h1 className="whatweoffer">What We Offer</h1>
+      {RoyalOffers.map((elem,i)=> { return(<WhatWeoffer offer={elem} offerText = {offerTexts[i]} offerPic={RoyalPics[i]} extraclass={extras[i]} key={i}/>)})}
+      {FinalThought}
+      <hr/>
+      <Footer/>
     </div>
   );
 }

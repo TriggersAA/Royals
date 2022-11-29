@@ -5,6 +5,7 @@ import Home from './Home';
 import ContactUs from './ContactUs'
 import reportWebVitals from './reportWebVitals';
 import {HashRouter ,Routes, Route } from 'react-router-dom';
+import Navig from './Navig';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,9 +14,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   {path:"/ContactUs" ,element :<ContactUs />}
 // ])
 root.render(
+  
   <React.StrictMode>
-
+    
     <HashRouter>
+    <Navig/>
       <Routes>
         <Route path="/" element = {<Home />}/>
 
